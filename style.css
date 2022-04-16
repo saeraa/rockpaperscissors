@@ -1,0 +1,90 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+#choice i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 60px !important;
+}
+
+#playerResult,
+#compResult {
+  color: rgb(34, 87, 29);
+  text-shadow: 0px 0px 2px black;
+}
+#compResult {
+  color: rgb(176, 61, 61);
+}
+
+#playerResult i:hover,
+#compResult i:hover {
+  color: black;
+}
+
+#results,
+#choice {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#wins {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#resetGame,
+#reset {
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+}
+
+#resetGame {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  margin-top: 25px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+#resetGame:hover {
+  box-shadow: 0px 0px 10px rgb(173, 173, 173);
+}
+
+#results div,
+#choice div {
+  width: 60px;
+  height: 60px;
+
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+}
+
+#choice div {
+  background-color: rgb(177, 177, 177);
+  border-radius: 10px;
+  height: 50px;
+  line-height: 10px;
+  padding-top: 10px;
+  border: 2px solid;
+}
+
+#vs {
+  margin-top: 15px;
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: bold;
+}
